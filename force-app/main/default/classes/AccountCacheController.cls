@@ -4,13 +4,13 @@
  * @Author             : ChangeMeIn@UserSettingsUnder.SFDoc
  * @Group              : 
  * @Last Modified By   : ChangeMeIn@UserSettingsUnder.SFDoc
- * @Last Modified On   : 20/1/2020, 1:03:41 pm
+ * @Last Modified On   : 20/1/2020, 8:17:36 pm
  * @Modification Log   : 
  * Ver       Date            Author      		    Modification
  * 1.0    16/1/2020   ChangeMeIn@UserSettingsUnder.SFDoc     Initial Version
 **/
-public class AccountCacheController {
-//tets123 updated added in feature
+//public class AccountCacheController {
+public with sharing class AccountCacheController {
 
   @AuraEnabled
   public static List<Account> getAccounts() {
